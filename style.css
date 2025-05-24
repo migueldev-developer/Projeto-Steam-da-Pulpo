@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-color: #0b1120;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: url('diabloIV.jpg') no-repeat center/cover;
+  height: calc(100vh - 80px);
+  position: relative;
+}
+
+.sidebar {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+.sidebar ul {
+  list-style: none;
+  color: #999;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin-left: 120px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: #e53e3e;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.btn-blue {
+  background-color: #3182ce;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.trailer {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  text-align: center;
+}
+
+.trailer img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+.trailer p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #fff;
+}
