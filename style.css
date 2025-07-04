@@ -1,0 +1,294 @@
+html, body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1055px;
+  margin: 0 auto;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.jogo {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px #00f0ff55;
+  transition: transform 0.3s;
+}
+
+.jogo:hover {
+  transform: scale(1.05);
+}
+
+.jogo img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.jogo a {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  background: linear-gradient(135deg, #ffffff, #000000);
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.5s, color 0.5s;
+}
+
+.jogo a:hover {
+  color: #ffffff;
+  background: linear-gradient(135deg, #00ffee, #000000);
+}
+
+.steam {
+  width: 100%;
+  margin-top: 60px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px #00f0ff55;
+  transition: transform 0.3s;
+}
+
+.steam img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.steam a {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  background: linear-gradient(135deg, #ffffff, #000000);
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.5s, color 0.5s;
+}
+
+.steam a:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #00ffee, #000000);
+  color: #ffffff;
+}
+
+#oloko {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#nobruapelao {
+  font-size: 100px;
+  margin: 50px 50px 0 50px;
+}
+
+#nobruapelao2 {
+  font-size: 15px;
+  margin: 75px 0 50px 0;
+}
+
+#seloko {
+  font-size: 75px;
+  margin: 20px 0 50px 0;
+}
+
+#CR7 {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.caiox{
+  margin: 0 30px 0 0;
+  background: none;
+  border: none;
+  font-size: 22px;
+}
+
+.ocastrin {
+  margin: 0 100px 0 30px;
+  background: none;
+  border: none;
+  font-size: 22px;
+}
+
+#nossa {
+    font-size: 75px;
+}
+
+.rlx {
+  background-image: url("Legendary\ Games.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px 0;
+}
+
+#kkkk {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.abcdefg {
+  width: 32px;
+  height: 32px;
+}
+
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.seta.esquerda {
+  left: -123px;
+}
+
+.seta.direita {
+  right: -123px;
+}
+
+.seta:hover {
+  background-color: #e0e0e0;
+}
+
+.carrossel-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.carrosel {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px 0;
+}
+
+.carrosel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carrosel-faixa {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+  height: 100%;
+  align-items: center;
+  gap: 8px;
+}
+
+.selokouecadeomeumano {
+  flex: 0 0 20%;
+  box-sizing: border-box;
+}
+
+
+.selokouecadeomeumano:last-child {
+  margin-right: 0;
+}
+
+.selokouecadeomeumano img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.selokouecadeomeumano button {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  font-weight: bold;
+  background: linear-gradient(135deg, #cce7ff, #ffffff);
+  color: #000;
+  cursor: pointer;
+  border-top: 1px solid #ddd;
+  transition: background 0.3s ease;
+}
+
+.selokouecadeomeumano button:hover {
+  background: linear-gradient(135deg, #a9d7ff, #ffffff);
+}
+
+.footer {
+  display: flex;
+  background-color: #1a3845;
+  height: 150px;
+  margin-top: 100px;
+  overflow: hidden;
+  padding: 25px 25px;
+  justify-content: space-between;
+}
+
+.Salinas,
+.Belem,
+.Paragominas {
+  flex: 1;
+}
+
+.Salinas {
+  text-align: left;
+}
+
+.Belem {
+  text-align: center;
+}
+
+.Paragominas {
+  text-align: right;
+}
+
+#imagem {
+  background-image: url("oloko.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-bottom: 20px;
+}
+
+#selokonumcompensa {
+  text-align: right;
+  color: red;
+}
